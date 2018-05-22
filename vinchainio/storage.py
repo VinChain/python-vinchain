@@ -218,7 +218,7 @@ class Configuration(DataDir):
 
     #: Default configuration
     config_defaults = {
-        "node": "ws://127.0.0.1:11011",
+        "node": "wss://node.vinchain.io:11011",
         "rpcpassword": "",
         "rpcuser": "",
         "order-expiration": 7 * 24 * 60 * 60,
