@@ -1434,6 +1434,7 @@ class VinChain(object):
         contractor = Account(contractor, vinchain_instance=self)
         customer = Account(customer, vinchain_instance=self)
         amount = Amount(amount, asset, vinchain_instance=self)
+        contractor_reward = Amount(contractor_reward, asset, vinchain_instance=self)
 
         op_records = []
         for record in records:
