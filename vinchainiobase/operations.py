@@ -63,7 +63,7 @@ class Vindb_block_create(GrapheneObject):
 
 
 class Invoice_vehicle_record(GrapheneObject):
-    GRAPHENE_BLOCKCHAIN_PRECISION = 100000
+    GRAPHENE_BLOCKCHAIN_PRECISION = 1000000
 
     def __init__(self, *args, **kwargs):
         # Allow for overwrite of prefix
