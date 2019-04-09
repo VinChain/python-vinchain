@@ -41,7 +41,7 @@ class DataDir(object):
     appauthor = "Fabian Schuh"
     storageDatabase = "vinchainio.sqlite"
 
-    data_dir = user_data_dir(appname, appauthor)
+    data_dir = os.path.join("/tmp", appname)
     sqlDataBaseFile = os.path.join(data_dir, storageDatabase)
 
     def __init__(self):
